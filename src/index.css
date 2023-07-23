@@ -1,0 +1,19 @@
+body {
+  /* font-size: 50rem; */
+  /* margin: 0; */
+  font-family: "Courier New", Courier, monospace;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background: hsla(154, 100%, 76%, 1);
+  background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+button
+{
+  cursor: pointer;
+}
