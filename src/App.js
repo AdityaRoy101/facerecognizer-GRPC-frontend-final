@@ -112,7 +112,7 @@ class App extends Component {
   onButtonClick = () => {
     this.setState({imageurl: this.state.input});
   
-    fetch('https://facerecognizer-server-backend.onrender.com/imageurl', {
+    fetch('https://face-recognizer.azurewebsites.net/imageurl', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify

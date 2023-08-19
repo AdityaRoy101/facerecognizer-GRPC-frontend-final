@@ -27,7 +27,7 @@ class Register extends Component
     }
 
     onSubmitSignIn = () => {
-        fetch('https://facerecognizer-server-backend.onrender.com/register',{
+        fetch('https://face-recognizer.azurewebsites.net/register',{
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
