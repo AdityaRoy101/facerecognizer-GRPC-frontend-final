@@ -112,7 +112,7 @@ class App extends Component {
   onButtonClick = () => {
     this.setState({imageurl: this.state.input});
   
-    fetch('https://face-recognizer.azurewebsites.net/imageurl', {
+    fetch('https://starfish-app-o8qd6.ondigitalocean.app/imageurl', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify
@@ -126,7 +126,7 @@ class App extends Component {
         .then(data => {
           if(data)
           {
-            fetch('https://facerecognizer-server-backend.onrender.com/image', {
+            fetch('https://starfish-app-o8qd6.ondigitalocean.app/image', {
               method: 'put',
               headers: {'Content-Type': 'application/json'},
               body: JSON.stringify

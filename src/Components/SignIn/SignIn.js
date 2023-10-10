@@ -20,7 +20,7 @@ class SignIn extends Component
     }
 
     onSubmitSignIn = () => {
-        fetch('https://face-recognizer.azurewebsites.net/signin',{
+        fetch('https://starfish-app-o8qd6.ondigitalocean.app/signin',{
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

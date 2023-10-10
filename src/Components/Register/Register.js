@@ -27,7 +27,7 @@ class Register extends Component
     }
 
     onSubmitSignIn = () => {
-        fetch('https://face-recognizer.azurewebsites.net/register',{
+        fetch('https://starfish-app-o8qd6.ondigitalocean.app/register',{
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
